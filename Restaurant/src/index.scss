@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   border: 1px solid black;
+}
+
+body{
+    height: 100vh;
+   
+    background-color: orange;
+  
+}
+nav{
+    background-color: orange;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;  
+    margin: auto;
+   align-items: center;
+    width: 50%;
+    background-image: url(https://c1.wallpaperflare.com/preview/134/249/216/pizza-pizza-hut-cooking-kitchen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+
+}
+input{
+    padding:10px;
+    margin: 10px;
+}
+button{
+    padding:20px ;
+    margin: 10px;
+    font-size: 1em;
+}
